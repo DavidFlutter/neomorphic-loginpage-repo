@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>7550817063-k85lu31nipcju37cqp2i3afnae14fmo4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.7550817063-k85lu31nipcju37cqp2i3afnae14fmo4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD2C8KS_1cj8NTxSDOWtq7JDGqKMxvOFQc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>7550817063</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.neoFlutter</string>
+	<key>PROJECT_ID</key>
+	<string>my-neo-login-page</string>
+	<key>STORAGE_BUCKET</key>
+	<string>my-neo-login-page.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:7550817063:ios:4c3cf73d9f55ff4a9e8f02</string>
+</dict>
+</plist>

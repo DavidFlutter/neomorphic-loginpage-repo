@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "7550817063",
+    "project_id": "my-neo-login-page",
+    "storage_bucket": "my-neo-login-page.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7550817063:android:e1fb5020e5c3f63a9e8f02",
+        "android_client_info": {
+          "package_name": "com.example.neo_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7550817063-jlk26k2u1edbj4va7baupr5q8dm121mo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxe1XtW2wB92IVKDF08eVfe9Z1flITxlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7550817063-jlk26k2u1edbj4va7baupr5q8dm121mo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
