@@ -4,27 +4,29 @@ import 'package:flutter_inset_box_shadow/flutter_inset_box_shadow.dart';
 import 'page_two.dart';
 
 class NeoMophHome extends StatelessWidget {
+  var myColor = Colors.grey;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.pink.shade400,
+      backgroundColor: myColor.shade400,
       body: Center(
         child: Container(
           height: 500,
           width: 500,
           decoration: BoxDecoration(
-              color: Colors.pink.shade400,
+              color: myColor.shade400,
               borderRadius: BorderRadius.circular(20),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.pink.shade200,
+                  color: myColor.shade200,
                   offset: Offset(-4, -4),
                   blurRadius: 10,
                   spreadRadius: 2,
                   inset: false,
                 ),
                 BoxShadow(
-                  color: Colors.pink.shade600,
+                  color: myColor.shade600,
                   offset: Offset(4, 4),
                   blurRadius: 10,
                   spreadRadius: 2,
@@ -38,24 +40,24 @@ class NeoMophHome extends StatelessWidget {
                 child: Icon(
                   Icons.android,
                   size: 50,
-                  color: Colors.pink.shade900,
+                  color: myColor.shade900,
                 ),
                 alignment: Alignment.center,
                 height: 70,
                 width: 70,
                 decoration: BoxDecoration(
-                  color: Colors.pink.shade400,
+                  color: myColor.shade400,
                   borderRadius: BorderRadius.circular(10),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.pink.shade200,
+                      color: myColor.shade200,
                       offset: Offset(-4, -4),
                       blurRadius: 10,
                       spreadRadius: 2,
                       inset: false,
                     ),
                     BoxShadow(
-                      color: Colors.pink.shade600,
+                      color: myColor.shade600,
                       offset: Offset(4, 4),
                       blurRadius: 10,
                       spreadRadius: 2,
@@ -67,7 +69,7 @@ class NeoMophHome extends StatelessWidget {
               SizedBox(height: 50),
               Container(
                 child: TextField(
-                  cursorColor: Colors.pink.shade700,
+                  cursorColor: myColor.shade700,
                   decoration: InputDecoration(
                     border: InputBorder.none,
                     hintText: "Username",
@@ -80,18 +82,18 @@ class NeoMophHome extends StatelessWidget {
                 height: 60,
                 width: 300,
                 decoration: BoxDecoration(
-                  color: Colors.pink.shade400,
+                  color: myColor.shade400,
                   borderRadius: BorderRadius.circular(10),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.pink.shade200,
+                      color: myColor.shade200,
                       offset: Offset(-4, -4),
                       blurRadius: 10,
                       spreadRadius: 2,
                       inset: true,
                     ),
                     BoxShadow(
-                      color: Colors.pink.shade600,
+                      color: myColor.shade600,
                       offset: Offset(4, 4),
                       blurRadius: 10,
                       spreadRadius: 2,
@@ -104,7 +106,7 @@ class NeoMophHome extends StatelessWidget {
               Container(
                 child: TextField(
                   obscureText: true,
-                  cursorColor: Colors.pink.shade700,
+                  cursorColor: myColor.shade700,
                   decoration: InputDecoration(
                     border: InputBorder.none,
                     hintText: "Password",
@@ -117,18 +119,18 @@ class NeoMophHome extends StatelessWidget {
                 height: 60,
                 width: 300,
                 decoration: BoxDecoration(
-                  color: Colors.pink.shade400,
+                  color: myColor.shade400,
                   borderRadius: BorderRadius.circular(10),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.pink.shade200,
+                      color: myColor.shade200,
                       offset: Offset(-4, -4),
                       blurRadius: 10,
                       spreadRadius: 2,
                       inset: true,
                     ),
                     BoxShadow(
-                      color: Colors.pink.shade600,
+                      color: myColor.shade600,
                       offset: Offset(4, 4),
                       blurRadius: 10,
                       spreadRadius: 2,
@@ -150,25 +152,25 @@ class NeoMophHome extends StatelessWidget {
                   child: Text(
                     "Login",
                     style: TextStyle(
-                      color: Colors.pink.shade900,
+                      color: myColor.shade900,
                     ),
                   ),
                   alignment: Alignment.center,
                   height: 40,
                   width: 300,
                   decoration: BoxDecoration(
-                    color: Colors.pink.shade400,
+                    color: myColor.shade400,
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.pink.shade200,
+                        color: myColor.shade200,
                         offset: Offset(-4, -4),
                         blurRadius: 10,
                         spreadRadius: 2,
                         inset: false,
                       ),
                       BoxShadow(
-                        color: Colors.pink.shade600,
+                        color: myColor.shade600,
                         offset: Offset(4, 4),
                         blurRadius: 10,
                         spreadRadius: 2,
